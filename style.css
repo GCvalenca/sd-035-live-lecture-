@@ -37,3 +37,17 @@ body {
     padding-right: 20px;
 }
 
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.premium {
+background-color:rgb(29, 97, 222); 
+color: white ;
+padding: 72px 0 40px 0;  
+}
+
+.premium-content {
+    
+}
