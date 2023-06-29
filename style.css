@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+padding: 0;}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    background-color: black;
+    color: white;
+    width: 60%;
+    margin: auto;
+}
+.header-container {
+    background-color: black;
+}
+.header img {
+    width: 100px;
+    padding: 15px 0;
+
+}
+.header ul {
+    display: inline;
+    float: right;
+    padding-top: 20px;
+}
+.header li {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 20px;
+}
+.header a {
+    text-decoration: none;
+    color: white;
+}
+.premium {
+    background-color:rgb(29, 117, 222); 
+    color: white ;
+    padding: 72px 0 40px 0;  
+}
+.premium-content {
+    width: 60%;
+    margin: auto;
+}
+.premium-content h1 {
+    font-size: 30px;
+}
+.premium-content h2 {
+    font-size: 20px;
+    font-weight:300px;
+}
+.premium-content h1, .premium-content h2 {
+    padding-bottom: 30px;
+
+}
+.premium-content a {
+    color: white;
+}
+.premium-content p {
+    padding-top: 20px;
+    font-size: 10px;
+    font-weight: 200;
+}
+.premium-buttons {
+    display: inline-block;
+    border-radius: 100px;
+    padding: 12px 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.comece-agora {
+    background-color: black;
+}
+.ver-planos {
+    border: 1px solid white;
+}
