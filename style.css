@@ -85,3 +85,15 @@ body {
 .ver-planos:hover{
     background-color: #175db1;
 }
+.why-premium {
+    text-align: center;
+}
+.why-premium div {
+    display: inline-block;
+    margin: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.why-premium h2 {
+    margin: 50px 0;
+}
