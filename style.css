@@ -35,6 +35,9 @@ body {
     text-decoration: none;
     color: white;
 }
+.header a:hover {
+    color: #1ED760;
+}
 .premium {
     background-color:rgb(29, 117, 222); 
     color: white ;
@@ -92,8 +95,50 @@ body {
     display: inline-block;
     margin: 20px;
     margin-bottom: 50px;
-    margin-top: 20px;
+    
 }
 .why-premium h2 {
     margin: 50px 0;
+    font-size: 30px;
+
+}
+.why-premium img {
+    padding-bottom: 25px;
+}
+.footer {
+    background-color: #efefef;
+    text-align: center;
+    height: 550px;
+}   
+.footer h2 {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 30px;
+}
+.footer h3 {
+    font-weight: 400x;
+    padding-bottom: 60px;
+}
+.favorite-bands {
+    background-color: white;
+    margin: auto;
+    width: 300px;  
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px black; 
+}
+.favorite-bands h3 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 40px;
+}
+.favorite-bands ol {
+    list-style: none;
+    padding-bottom: 40px;
+}
+.favorite-bands a {
+    text-decoration: none;
+    color: black; 
+}
+.favorite-bands a:hover {
+   background-color: #1ED760;
 }
