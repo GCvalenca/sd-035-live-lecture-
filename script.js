@@ -3,7 +3,13 @@ let firstGame = [7, 14, 35, 48, 51, 60];
 
 // Gera os numeros da mega-sena
 for (let index = 0; index < firstGame.length; index += 1) {
-   lotteryNumbers.push(Math.ceil(Math.random() * 60));
+   let randomNumber = Math.ceil(Math.random() * 60);
+   if (!lotteryNumbers.includes(randomNumber)){
+    lotteryNumbers.push(randomNumber);
+   } else {
+    index -= 1;
+   }
+   
 };
 
 // Comparação do sorteio com o jogo do vito
