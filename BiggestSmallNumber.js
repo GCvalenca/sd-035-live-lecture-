@@ -16,4 +16,4 @@ const BiggestSmallerNumber = (array) => {
 Menor ${smaller}`;
 };
 
-console.log(BiggestSmallerNumber ([1, 2, 3, 4, 5, 2, 10, 4, 5]));
+console.log(BiggestSmallerNumber ([ 2, 3, 4, 5, 2, 10, 4, 13, 5]));

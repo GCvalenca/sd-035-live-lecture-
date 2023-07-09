@@ -1,5 +1,5 @@
 let lotteryNumbers = [];
-let firstGame = [7, 14, 35, 48, 51, 60];
+let firstGame = [23, 29, 57, 44, 13, 60];
 
 // Gera os numeros da mega-sena
 for (let index = 0; index < firstGame.length; index += 1) {
