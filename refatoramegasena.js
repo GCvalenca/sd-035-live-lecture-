@@ -15,20 +15,3 @@ const generateLotteryNumbers = (quantiti, maxNumber, array) => {
 generateLotteryNumbers (6, 60, lotteryNumbers);
 console.log(lotteryNumbers);
 
-// // Comparação do sorteio com o jogo do vito
-// let count = 0;
-// let hits = [];
-
-// for (let indexLottery = 0; indexLottery < lotteryNumbers.length; indexLottery += 1) {  
-//     for (let indexGame = 0; indexGame < firstGame.length; indexGame += 1) {
-//         if (lotteryNumbers[indexLottery] === firstGame[indexGame]) {
-//             count += 1;
-//             hits.push(lotteryNumbers[indexLottery]);
-//         }
-//     }  
-// }
-
-// // QuantidlotteryNumberse acertos
-// console.log('jogo', firstGame);
-// console.log('acertos', count);
-// console.log("quais", hits);
